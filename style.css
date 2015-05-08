@@ -1,0 +1,74 @@
+body{
+	font-size: 16px;
+}
+
+input{
+	width: 70%;
+	height: 2em;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 25px;
+	text-align: center;
+}
+
+textarea{
+	width: 70%;
+	margin-left: 15%; 
+	margin-right: 15%; 
+}
+
+legend{
+	text-align: center;
+	text-shadow: 3px 3px 4px white;
+	font-weight: bold;
+	font-size: 2em;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;	
+}
+
+fieldset{
+	max-width: 30%;
+	margin: 0 auto;
+	background: rgba(123,255,43, .4);
+	box-shadow: 10px 15px 20px 3px black;	
+}
+
+fieldset:hover{
+	max-width: 30%;
+	margin: 0 auto;
+	background: rgba(255,233,43,.4); 
+	box-shadow: 10px 15px 20px 3px black;	
+}
+
+label{
+	margin:5px 0 5px 0;
+	text-shadow: .5px .5px 1px black;
+	font-weight: bold;
+}
+
+button{
+	margin: 5% 45% 5% 45%;
+	box-shadow: 5px 5px 10px 2px black;
+	background-color: rgba(100,244,100,.4);
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+	border-radius: 25px;
+}
+
+button:hover{
+	margin: 5% 45% 5% 45%;
+	box-shadow: 5px 5px 10px 2px black;
+	background: rgba(255,233,43,.4); 
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+	border-radius: 25px;
+}
+
+.labelStyle{
+	font-weight: 100%;
+	color: black;
+	display:block;
+}

@@ -1,0 +1,38 @@
+<!--Set to test and try out some of the many attributes of the input element-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Input Elements</title>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<header>
+			<h1>About HTML Forms</h1>
+			<h5>Here, we look at some of the many things possible with forms</h5>
+		</header>
+	
+		<form id="feedbackForm" method="post">
+			<fieldset>
+				<legend>Feedback Form</legend>
+					<label class="labelStyle" for="name">Name:</label>
+					<input type="text" id="name" name="user_name" placeholder="enter your user name"/>
+					
+					<label class="labelStyle" for="mail">Email:</label>
+					<input type="email" id="mail" name="user_email" placeholder="enter your email address"/>
+					
+					<label class="labelStyle" for="password">Password:</label>
+					<input type="password" id="password" name="password" placeholder="enter your password"/>
+					
+					<label class="labelStyle" for="telephoneNum">Telephone (optional):</label>
+					<input type="tel" id="telephoneNum" placeholder="555-123-4325"/>
+					
+					<label class="labelStyle" for="comment">Feedback:</label>
+					<textarea id="comment" name="commentSection" placeholder="Anything you'd like to say?"></textarea>
+				
+			</fieldset>
+		</form>
+		
+		<button form="feedbackForm" type="submit">Click To Submit</button> <!--creates a submit button-->
+	</body>
+</html>
