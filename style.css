@@ -11,10 +11,25 @@ input{
 	text-align: center;
 }
 
+input[type="radio"]{
+	display: inline;
+	width: 1em;
+	height: 1em;
+	margin: 0 2.5%;
+}
+
+input[type="checkbox"]{
+	display: inline;
+	width: 1em;
+	height: 1em;
+	margin: 0 2.5%;
+}
+
 textarea{
 	width: 70%;
 	margin-left: 15%; 
 	margin-right: 15%; 
+	margin-bottom: 5%;
 }
 
 legend{
@@ -41,11 +56,20 @@ fieldset:hover{
 	box-shadow: 10px 15px 20px 3px black;	
 }
 
+select{
+	margin: 5% 0;
+	display: inline-block;
+	border: 2px solid white;
+	font-weight: 100%;
+}
+
 label{
 	margin:5px 0 5px 0;
 	text-shadow: .5px .5px 1px black;
 	font-weight: bold;
 }
+
+
 
 button{
 	margin: 5% 45% 5% 45%;

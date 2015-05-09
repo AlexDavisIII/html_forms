@@ -10,10 +10,17 @@
 		<header>
 			<h1>HTML Form Created By Alex</h1>
 		</header>
-	
 		<form id="feedbackForm" method="post">
 			<fieldset>
 				<legend>Feedback Form</legend>
+					<div id="selectArea">
+						<select name="gender">
+							<option value="select">Select Your Gender</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="robotic">Robotic</option>
+						</select>
+					</div>
 					<label class="labelStyle" for="name">Name:</label>
 					<input type="text" id="name" name="user_name" placeholder="enter your user name"/>
 					
@@ -27,8 +34,20 @@
 					<input type="tel" id="telephoneNum" placeholder="555-123-4325"/>
 					
 					<label class="labelStyle" for="comment">Feedback:</label>
-					<textarea id="comment" name="commentSection" placeholder="Anything you'd like to say?"></textarea>
-				
+					<textarea id="comment" name="commentSection" placeholder="Anything you'd like to say?"></textarea>	
+						
+					<label id="rateMeHeader">Rate Your Day So Far! (1 - Horrible | 2 - OK | 3 - Great)</label><br>
+					<input type="radio" id="surely" name="rating" value="1"/><label for="surely">1</label>
+					<input type="radio" id="maybe" name="rating" value="2"/><label for="maybe">2</label>
+					<input type="radio" id="not_likely" name="rating" value="3"/><label for="not_likely">3</label><br>
+					
+					<br>
+					<label id="rateMeHeader">Between these, what's your favorite color? Choose as many as apply!</label><br>
+					<input type="checkbox" id="red" name="colorRed" value="red"/><label for="red">Red</label>
+					<input type="checkbox" id="blue" name="colorBlue" value="blue"/><label for="blue">Blue</label>
+					<input type="checkbox" id="yellow" name="colorYellow" value="yellow"/><label for="yellow">Yellow</label>
+					
+					
 			</fieldset>
 		</form>
 		
